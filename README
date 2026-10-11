@@ -1,0 +1,33 @@
+# Minhaj Khan - Personal Portfolio Website
+
+A responsive personal portfolio built with HTML, CSS, and JavaScript.
+
+## Included sections
+- Home and introduction
+- About Me and education
+- Skills and interests
+- Student Management System and Inventory Management System project cards
+- LinkedIn, GitHub, and Instagram links
+- Email contact
+
+## Preview locally
+1. Extract the ZIP file.
+2. Open the `Port 2` folder.
+3. Double-click `index.html` to open the website in your browser.
+
+## Personalize before submitting
+- Add your real profile photo at `images/profile.jpg` (create the `images` folder if needed). If you do not add a photo, the initials `MK` will appear.
+- Make sure the project descriptions and technology tags accurately describe your actual projects.
+- The project links currently open your GitHub profile because individual repository links were not provided. Replace them with the actual repository URLs if you have uploaded these projects.
+
+## Deploy with GitHub Pages
+1. Create a public GitHub repository, for example `minhaj-portfolio`.
+2. Upload `index.html`, `style.css`, `script.js`, and this README directly into the repository's root.
+3. Open the repository's **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select branch `main` and folder `/(root)`, then click **Save**.
+6. Wait a few minutes. Your site should be available at:
+   `https://iminhaj.github.io/minhaj-portfolio/`
+
+## Deploy with Vercel
+Import the GitHub repository into Vercel and deploy it as a static website without a build command.
