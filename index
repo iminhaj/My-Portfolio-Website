@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b12">
+<meta name="description" content="Minhaj Khan — Software Engineering student, aspiring developer and creative editor in Karachi.">
+<title>Minhaj Khan — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroll-progress" id="scroll-progress"></div>
+<div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+<header class="site-header">
+  <div class="container nav-inner">
+    <a class="brand" href="#home" aria-label="Minhaj Khan home"><img src="images/profile.jpg" alt="" class="brand-avatar"><span>minhaj<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav-links" aria-label="Main navigation"><a href="#home" class="active">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#social">Find me</a><a class="nav-contact" href="#contact">Let's talk <span>↗</span></a></nav>
+  </div>
+</header>
+<main>
+<section id="home" class="hero">
+ <div class="container hero-layout">
+  <div class="hero-copy">
+   <div class="availability"><span class="status-dot"></span> SOFTWARE ENGINEERING STUDENT <span class="location">/ KARACHI, PK</span></div>
+   <p class="hello">Hey there, I'm</p>
+   <h1>Minhaj<br><span>Khan<span class="heading-period">.</span></span></h1>
+   <h2 class="role-line">I’m into <span id="typed-role">software development</span><span class="typing-caret">|</span></h2>
+   <p class="hero-description">I’m an undergraduate Software Engineering student who enjoys turning ideas into useful digital experiences, learning how things work, and creating content that tells a story.</p>
+   <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a></div>
+   <div class="hero-meta"><div><strong>01</strong><span>Curious mind</span></div><div><strong>02</strong><span>Always learning</span></div><div><strong>03</strong><span>Building things</span></div></div>
+  </div>
+  <div class="portrait-wrap">
+   <div class="portrait-label label-top"><span class="label-star">✳</span> A LITTLE ABOUT ME</div>
+   <div class="portrait-frame"><div class="portrait-glow"></div><img src="images/profile.jpg" alt="Portrait of Minhaj Khan" class="portrait"><div class="portrait-index">MK / 2026</div></div>
+   <div class="portrait-label label-bottom"><span class="line-mark"></span> DEVELOPER IN PROGRESS</div>
+   <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="floating-note">Ideas → <b>reality</b></div>
+  </div>
+ </div>
+ <a href="#about" class="scroll-cue"><span></span> SCROLL TO EXPLORE</a>
+</section>
+<section id="about" class="section">
+ <div class="container">
+  <div class="section-heading"><div><p class="kicker">01 / THE PERSON</p><h2>A little about <span>me.</span></h2></div><p class="section-aside">Learning by doing. Improving with every project.</p></div>
+  <div class="about-grid">
+   <article class="info-card education-card"><div class="card-icon">✳</div><p class="card-kicker">THE JOURNEY</p><h3>Education</h3><div class="timeline"><div class="timeline-entry"><span class="timeline-dot"></span><div><h4>BS Software Engineering</h4><p>Indus University · Karachi</p><small>2025 — Present</small></div></div><div class="timeline-entry"><span class="timeline-dot muted-dot"></span><div><h4>Intermediate</h4><p>Pre-Engineering</p><small>Completed · 2024</small></div></div></div></article>
+   <article class="info-card skills-card"><div class="card-icon">⌘</div><p class="card-kicker">MY TOOLKIT</p><h3>Skills I'm building</h3><p class="card-description">A growing toolkit for building, creating, and solving problems.</p><div class="skill-list"><span>Python</span><span>HTML</span><span>CSS</span><span>Git & GitHub</span><span>Video editing</span><span>Document editing</span></div></article>
+   <article class="info-card interests-card"><div class="card-icon">↗</div><p class="card-kicker">WHAT DRIVES ME</p><h3>Curiosity first.</h3><p class="card-description">I like exploring the intersection of logic and creativity.</p><ul class="interest-list"><li>Web development <span>↗</span></li><li>Problem solving <span>↗</span></li><li>Video & visual storytelling <span>↗</span></li><li>New technologies <span>↗</span></li></ul></article>
+  </div>
+ </div>
+</section>
+<section id="projects" class="section projects-section">
+ <div class="container">
+  <div class="section-heading"><div><p class="kicker">02 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div><p class="section-aside">Small projects. Real practice. More to come.</p></div>
+  <div class="project-grid">
+   <article class="project-card project-student"><div class="project-top"><span class="project-number">PROJECT / 01</span><span class="project-arrow">↗</span></div><div class="project-visual student-visual"><div class="mini-window"><div class="window-bar"><i></i><i></i><i></i><span>student_portal.py</span></div><div class="code-lines"><p><b>class</b> StudentManager:</p><p class="indent">students = <em>[]</em></p><p class="indent"><b>def</b> add_student(self):</p><p class="indent double">return <em>"record saved"</em></p><div class="code-chip">● SYSTEM READY</div></div></div></div><div class="project-content"><div class="project-type">PYTHON · DATA MANAGEMENT</div><h3>Student Management System</h3><p>A student-focused project concept for organizing student details and keeping records easier to manage.</p><a href="https://github.com/iminhaj/Student-Management-Portal-System" target="_blank" rel="noopener noreferrer" class="project-link">View repository <span>↗</span></a></div></article>
+   <article class="project-card project-inventory"><div class="project-top"><span class="project-number">PROJECT / 02</span><span class="project-arrow">↗</span></div><div class="project-visual inventory-visual"><div class="inventory-panel"><div class="inventory-title"><span>INVENTORY OVERVIEW</span><b>•••</b></div><div class="inventory-total"><small>Items in stock</small><strong>1,284</strong><span>↗ Organized records</span></div><div class="stock-bars"><i style="--bar:82%"></i><i style="--bar:55%"></i><i style="--bar:93%"></i><i style="--bar:68%"></i><i style="--bar:44%"></i><i style="--bar:74%"></i><i style="--bar:60%"></i></div><div class="inventory-foot"><span>PRODUCTS</span><span>STOCK TRACKING</span></div></div></div><div class="project-content"><div class="project-type">PYTHON · INVENTORY TRACKING</div><h3>Inventory Management System</h3><p>A programming project focused on tracking products, quantities, and inventory records in one place.</p><a href="https://github.com/iminhaj/Inventory-Management-System" target="_blank" rel="noopener noreferrer" class="project-link">View repository <span>↗</span></a></div></article>
+  </div><p class="project-note"><span>✳</span> Currently learning, experimenting, and adding to this collection.</p>
+ </div>
+</section>
+<section id="social" class="section social-section"><div class="container"><div class="section-heading"><div><p class="kicker">03 / AROUND THE WEB</p><h2>Find me <span>online.</span></h2></div><p class="section-aside">Connect, follow along, or check out my code.</p></div><div class="social-grid">
+<a class="social-card" href="https://www.linkedin.com/in/minhaj-khan-0a47862aa" target="_blank" rel="noopener noreferrer"><span class="social-symbol">in</span><span><b>LinkedIn</b><small>Professional updates</small></span><span class="social-arrow">↗</span></a>
+<a class="social-card" href="https://github.com/iminhaj" target="_blank" rel="noopener noreferrer"><span class="social-symbol github-symbol">⌘</span><span><b>GitHub</b><small>Code & experiments</small></span><span class="social-arrow">↗</span></a>
+<a class="social-card" href="https://www.instagram.com/iminhaj09/" target="_blank" rel="noopener noreferrer"><span class="social-symbol instagram-symbol">◎</span><span><b>Instagram</b><small>Life outside the code</small></span><span class="social-arrow">↗</span></a>
+</div></div></section>
+<section id="contact" class="contact-section"><div class="container contact-inner"><p class="kicker">04 / YOUR TURN</p><h2>Have something<br><span>in mind?</span></h2><p>Got an idea, opportunity, or just want to say hello? My inbox is open.</p><a class="button button-primary contact-button" href="mailto:minhaj17se@gmail.com">minhaj17se@gmail.com <span>↗</span></a><div class="contact-decoration">LET'S MAKE SOMETHING GOOD.</div></div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a class="footer-brand" href="#home">minhaj<span>.</span></a><p>Designed & built with curiosity.</p><span>© <span id="year"></span> MINHAJ KHAN</span></div></footer>
+<script src="script.js"></script>
+</body></html>
