@@ -11,3 +11,44 @@
 @media(max-width:900px){.hero-layout{gap:35px}.hero h1{font-size:clamp(4.3rem,10vw,6rem)}.about-grid{grid-template-columns:1fr 1fr}.interests-card{grid-column:span 2;min-height:unset}.interest-list{display:grid;grid-template-columns:1fr 1fr;column-gap:22px}.portrait-wrap{max-width:370px}.floating-note{left:-10px}.hero{padding-top:70px;min-height:unset;padding-bottom:75px}.social-grid{grid-template-columns:1fr}.social-card{max-width:none}}
 @media(max-width:650px){.container{width:88%}.nav-inner{height:68px}.menu-toggle{display:block}nav{display:none;position:absolute;top:68px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#0d1018;border-bottom:1px solid var(--line);padding:10px 6% 18px}nav.open{display:flex}nav a{padding:13px 4px;border-bottom:1px solid var(--line)}nav .nav-contact{margin-top:12px;text-align:center;border:0}.hero{padding:56px 0 68px}.hero-layout{grid-template-columns:1fr;gap:45px}.hero-copy{order:2}.portrait-wrap{order:1;width:80%;max-width:330px}.availability{font-size:.55rem;flex-wrap:wrap}.hero h1{font-size:clamp(4.6rem,18vw,6.5rem)}.hero-meta{gap:20px;margin-top:38px}.hero-meta span{font-size:.62rem}.scroll-cue{display:none}.section{padding:75px 0}.section-heading{display:block;margin-bottom:28px}.section-heading h2{font-size:2.65rem}.section-aside{margin-top:12px}.about-grid,.project-grid{grid-template-columns:1fr}.info-card{min-height:unset}.interests-card{grid-column:auto}.interest-list{display:block}.project-visual{height:205px}.social-grid{gap:10px}.contact-section{padding:75px 0}.contact-inner h2{font-size:clamp(3.5rem,16vw,5.4rem)}.contact-decoration{display:none}.footer-inner{flex-wrap:wrap}.footer-inner p{order:3;width:100%}.footer-inner>span{font-size:.52rem}.floating-note{left:-16px;bottom:65px;font-size:.65rem}.portrait-label{font-size:.52rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+/* Keep the website centered on mobile */
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 650px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 0;
+    }
+
+    .hero-layout,
+    .hero-copy,
+    .portrait-wrap,
+    .about-grid,
+    .project-grid,
+    .social-grid,
+    .info-card,
+    .project-card {
+        min-width: 0;
+    }
+
+    .portrait-wrap {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
